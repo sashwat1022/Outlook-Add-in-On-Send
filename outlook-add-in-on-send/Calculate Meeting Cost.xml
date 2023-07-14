@@ -6,12 +6,12 @@
   xmlns:mailappor="http://schemas.microsoft.com/office/mailappversionoverrides"
   xsi:type="MailApp">
 
-  <Id>D2490B2A-0CB8-4B4F-AD70-C520AFA6E3FC</Id>
+  <Id>D0590B2A-0CB8-4B4F-AD70-C520AFA6E3FC</Id>
   <Version>1.0</Version>
   <ProviderName>Contoso</ProviderName>
   <DefaultLocale>en-us</DefaultLocale>
-  <DisplayName DefaultValue="Contoso Subject and CC Checker" />
-  <Description DefaultValue="Contoso Subject and CC Checker" />
+  <DisplayName DefaultValue="Calculate Meeting Cost" />
+  <Description DefaultValue="Calculate Meeting Cost" />
 
   <Requirements>
     <Sets DefaultMinVersion="1.1">
@@ -47,17 +47,17 @@
         <Host xsi:type="MailHost">
           <DesktopFormFactor>
             <!-- The functionfile and function name to call on message send.  -->
-            <!-- In this particular case the function validateSubjectAndCC will be called within the JavaScript code referenced in residUILessFunctionFileUrl. -->
+            <!-- In this particular case the function validateBody will be called within the JavaScript code referenced in residUILessFunctionFileUrl. -->
             <FunctionFile resid="residUILessFunctionFileUrl" />
             <ExtensionPoint xsi:type="Events">
-              <Event Type="ItemSend" FunctionExecution="synchronous" FunctionName="validateSubjectAndCC" />
+              <Event Type="ItemSend" FunctionExecution="synchronous" FunctionName="calculateMeetingCost" />
             </ExtensionPoint>
           </DesktopFormFactor>
         </Host>
       </Hosts>
       <Resources>
         <bt:Urls>
-          <!-- The JavaScript code is hosted on a secure and trusted web server. -->
+           <!-- The JavaScript code is hosted on a secure and trusted web server. -->
           <bt:Url id="residUILessFunctionFileUrl" DefaultValue="https://localhost:3000/index.html" ></bt:Url>
         </bt:Urls>
       </Resources>

@@ -1,0 +1,43 @@
+{
+    "john.doe@abbvie.com": {
+      "name": "John Doe",
+      "hourlyRate": 25
+    },
+    "jane.smith@abbvie.com": {
+      "name": "Jane Smith",
+      "hourlyRate": 30
+    },
+    "michael.johnson@abbvie.com": {
+      "name": "Michael Johnson",
+      "hourlyRate": 28
+    },
+    "sarah.wilson@abbvie.com": {
+      "name": "Sarah Wilson",
+      "hourlyRate": 35
+    },
+    "david.miller@abbvie.com": {
+      "name": "David Miller",
+      "hourlyRate": 27
+    },
+    "linda.anderson@abbvie.com": {
+      "name": "Linda Anderson",
+      "hourlyRate": 32
+    },
+    "robert.thompson@abbvie.com": {
+      "name": "Robert Thompson",
+      "hourlyRate": 26
+    },
+    "emily.jackson@abbvie.com": {
+      "name": "Emily Jackson",
+      "hourlyRate": 29
+    },
+    "william.brown@abbvie.com": {
+      "name": "William Brown",
+      "hourlyRate": 33
+    },
+    "olivia.moore@abbvie.com": {
+      "name": "Olivia Moore",
+      "hourlyRate": 31
+    }
+  }
+  
